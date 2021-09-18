@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ y tế - Cổng thông tin của Bộ y tế về đại dịch covid-19</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- HEADER BEGIN -->
+    <header>
+        <div class="container-fluid">
+            <div class="row mt-2 mb-2">
+                <div class="col-md-6"></div>
+                <div class="col-md-3 m-0 p-0">
+                    <form action="" id="search">
+                        <input class="pl-2" type="text" placeholder="Nhập từ khóa ...">
+                        <button><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="text-center" id="hotline">
+                        <span>Đường dây nóng: 19009095</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row header-middle">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                  <a href="#"><img style="width: 120px;" class="logo" src="./imgs/logo.png" alt=""></a>
+                </div>
+                <div class="col-md-8">
+                    <p>Tin tức COVID-19</p>
+                </div>
+            </div> 
+            <div class="row header-bottom">
+                <div class="col-md-1"></div>
+                <div class="col-md-11">
+                    <ul class="p-0 m-0 d-flex">
+                        
+                        <li class="p-3"><a href="./index.html"><i class="fas fa-home"></i></a></li>
+                        <li class="p-3"><a href="#">Bản tin Covid-19</a></li>
+                        <li class="p-3"><a href="#">Vaccine - Tiêm chủng</a></li>
+                        <li class="p-3"><a href="./chamSoc.html">Chăm sóc</a></li>
+                        <li class="p-3"><a href="./sucKhoeHangNgay.html">Sức khỏe hàng ngày</a></li>
+                        <li class="p-3"><a href="#">Tình hình thế giới</a></li>
+                        <li class="p-3"><a href="./lienHe.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->  
+
+    <!-- BODY BEGIN -->
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" data-toggle="tab" href="#home">Việt Nam</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#menu1">Thế giới</a>
+                    </li>                  
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="home" class="container tab-pane active"><br>                        
+                        <div class="row">
+                            <div class="col-md-4 item-1">
+                                <p class="text m-0">SỐ CA NHIỄM</p>
+                                <p class="value m-0">635.055</p>
+                                <p class="note m-0">Hôm nay <span>+10.508</span></p>
+                            </div>
+                            <div class="col-md-4 item-2">
+                                <p class="text m-0">SỐ CA NHIỄM</p>
+                                <p class="value m-0">635.055</p>
+                            </div>
+                            <div class="col-md-4 item-3">
+                                <p class="text m-0">SỐ CA NHIỄM</p>
+                                <p class="value m-0">635.055</p>
+                            </div>
+                        </div>                      
+                    </div>
+                    <div id="menu1" class="container tab-pane fade"><br>
+                        <div class="row">
+                            <div class="col-md-4 item-1">
+                                <p class="text m-0">SỐ CA NHIỄM</p>
+                                <p class="value m-0">225.213.074</p>
+                            </div>
+                            <div class="col-md-4 item-2">
+                                <p class="text m-0">SỐ CA NHIỄM</p>
+                                <p class="value m-0">201.781.597</p>
+                            </div>
+                            <div class="col-md-4 item-3">
+                                <p class="text m-0">SỐ CA NHIỄM</p>
+                                <p class="value m-0">4.640.672</p>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TABLE AND CHART -->
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h3 class="title p-0"><a href="#">Tình hình dịch cả nước</a></h3>
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th>Tỉnh/TP</th>
+                        <th>Tổng số ca</th>
+                        <th>Hôm nay</th>
+                        <th>Tử vong</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>TP. Hồ Chí Minh</td>
+                        <td>310.307</td>
+                        <td>+6.312</td>
+                        <td>12.419</td>
+                      </tr>
+                      <tr>
+                        <td>Bình Dương</td>
+                        <td>162.875</td>
+                        <td>+2.178</td>
+                        <td>1.452</td>
+                      </tr>
+                      <tr>
+                        <td>Đồng Nai</td>
+                        <td>36.395</td>
+                        <td>+777</td>
+                        <td>12.419</td>
+                      </tr>
+                      <tr>
+                        <td>Đồng Nai</td>
+                        <td>36.395</td>
+                        <td>+777</td>
+                        <td>12.419</td>
+                      </tr>
+                      <tr>
+                        <td>Đồng Nai</td>
+                        <td>36.395</td>
+                        <td>+777</td>
+                        <td>12.419</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <canvas id="myChart"></canvas>
+                  </div>
+            </div>
+        </div>
+        <!-- TABLE AND CHART END -->
+        <div class="row">
+            <div class="col-md-12">
+                <hr style="color: #2E3192;">
+            </div>
+        </div>
+        <div class="row">
+             <!-- BẢN TIN COVID 19-->
+            <div class="col-md-6 p-3">
+                <h3 class="title "><a href="#">Bản tin covid-19</a></h3>
+                <div class="d-flex blog">
+                    <a href="#">
+                        <img src="./imgs/1.jpeg" alt="">
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#">Bộ Y tế hướng dẫn xét nghiệm và một số biện pháp phòng chống dịch khi giãn cách, tăng cường giãn cách xã hội ...</a>
+                        </li>
+                        <li>Sáng 15/9, Bộ Y tế- cơ quan thường trực Ban Chỉ đạo Quốc gia phòng, chống dịch COVID-19 điện ...</li>
+                    </ul>
+                </div>               
+            </div>
+             <!-- BẢN TIN COVID 19 END  -->
+             <!-- VACCINE TIÊM CHỦNG -->
+            <div class="col-md-6 p-3">
+                <h3 class="title "><a href="#">Vaccine tiêm chủng</a></h3>
+                <div class="d-flex blog">
+                    <a href="#">
+                        <img src="./imgs/4.webp" alt="">
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#">Bộ Y tế hướng dẫn xét nghiệm và một số biện pháp phòng chống dịch khi giãn cách, tăng cường giãn cách xã hội ...</a>
+                        </li>
+                        <li>Sáng 15/9, Bộ Y tế- cơ quan thường trực Ban Chỉ đạo Quốc gia phòng, chống dịch COVID-19 điện ...</li>
+                    </ul>
+                </div>            
+            </div>
+            <!-- VACCINE TIÊM CHỦNG END -->
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr style="color: #2E3192;">
+            </div>
+        </div>
+        <!-- TINH HINH THE GIOI -->
+        <div class="row">
+            <div class="col-md-6 p-3">
+                <h3 class="title "><a href="#">Tình hình thế giới</a></h3>
+                <div class="blog">
+                    <a href="#">
+                        <img src="./imgs/tinh-hinh-1.jpg" alt="">
+                    </a>
+                    <ul class="p-0">
+                        <li>
+                            <a href="#">Lao động nhập cư Thái Lan trông chờ 'phao cứu sinh' vaccine COVID-19</a>
+                        </li>
+                        <li>Những lao động nhập cư sống ở biên giới Thái Lan cho biết biến thể Delta đang đe doạ tính mạng và sinh kế của họ.</li>
+                    </ul>
+                </div>               
+            </div>
+            <div class="col-md-6 p-5">
+                <div class="d-flex blog">
+                    <a href="#">
+                        <img src="./imgs/tinh-hinh-2.jpg" alt="">
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#">Bộ Y tế hướng dẫn xét nghiệm và một số biện pháp phòng chống dịch khi giãn cách, tăng cường giãn cách xã hội ...</a>
+                        </li>     
+                    </ul>
+                </div>
+                <hr>
+                <div class="d-flex blog">
+                    <a href="#">
+                        <img src="./imgs/tinh-hinh-3.webp" alt="">
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#">Bộ Y tế hướng dẫn xét nghiệm và một số biện pháp phòng chống dịch khi giãn cách, tăng cường giãn cách xã hội ...</a>
+                        </li>   
+                    </ul>
+                </div>
+                <hr>
+                <div class="d-flex blog">
+                    <a href="#">
+                        <img src="./imgs/tinh-hinh-4.jpeg" alt="">
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#">Bộ Y tế hướng dẫn xét nghiệm và một số biện pháp phòng chống dịch khi giãn cách, tăng cường giãn cách xã hội ...</a>
+                        </li>
+ 
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- TINH HINH THE GIỚI END -->
+        <div class="row">
+            <div class="col-md-12">
+                <hr style="color: #2E3192;">
+            </div>
+        </div>
+        <!-- VIDEO -->
+        <div class="row">
+            <div class="col-md-6 p-3">
+                <h3 class="title "><a href="#">Video</a></h3>
+                <div class="blog">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-2ZduPnLdWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <ul class="p-0">
+                        <li>
+                            <a href="#">Video chỉ dẫn dinh dưỡng cho F0, F1 tại nhà</a>
+                        </li>
+                        <li>Khi thực hiện cách ly và điều trị tại nhà, F0 và F1 nguy cơ cao cần có một chế độ dinh dưỡng phù hợp và khoa học để tăng sức đề kháng, nhanh chóng hồi phục sức khỏe.</li>
+                    </ul>
+                </div>               
+            </div>
+            <div class="col-md-6 p-5">
+                <div class="row">
+                    <div class="col-md-6 p-0">
+                        <div class="blog">
+                            <a href="#">
+                                <img src="./imgs/vid-1.jpg" alt="">
+                            </a>
+                            <ul class="p-0">
+                                <li>
+                                    <a href="#">Tư liệu đặc biệt: Ở nơi sự sống mong manh</a>
+                                </li>     
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <div class="blog">
+                            <a href="#">
+                                <img src="./imgs/vid-2.webp" alt="">
+                            </a>
+                            <ul class="p-0">
+                                <li>
+                                    <a href="#">Hướng dẫn cách tập thở và vận động tại nhà</a>
+                                </li>     
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 p-0">
+                        <div class="blog">
+                            <a href="#">
+                                <img src="./imgs/vid-3.jpg" alt="">
+                            </a>
+                            <ul class="p-0">
+                                <li>
+                                    <a href="#">Tiêm mũi 2 có làm ảnh hưởng đến hiệu quả miễn dịch. </a>
+                                </li>     
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <div class="blog">
+                            <a href="#">
+                                <img src="./imgs/vid-4.jpg" alt="">
+                            </a>
+                            <ul class="p-0">
+                                <li>
+                                    <a href="#">Thứ trưởng bộ y tế</a>
+                                </li>     
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- VIDEO END -->
+    </div>
+    <!-- BODY END -->
+
+    <!-- FOOTER BEGIN -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row footer pt-3 pb-3">
+                <!-- <div class="col-md-1"></div>
+                <div class="col-md-7 d-flex">
+                    <a href="#"><img class="logo" src="./imgs/logo.png" alt=""></a>
+                    <ul class="pt-2">
+                        <li>QUẢN LÝ NỘI DUNG: BÁO SỨC KHỎE VÀ ĐỜI SỐNG - CƠ QUAN NGÔN LUẬN CỦA BỘ Y TẾ</li>
+                        <li>Địa chỉ: Số 138A Giảng Võ - Quận Ba Đình - TP. Hà Nội</li>
+                        <li>Điện thoại: 024.3846.1042 - Fax: 024.3844.3144</li>
+                        <li>Email: covid19@suckhoedoisong.vn</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <a href="#"><img id="vccorp" src="./imgs/vccorp-s.png" alt=""></a>
+                </div> -->
+                <div class="col-md-1"></div>
+                <div class="col-md-3 p-0">
+                    <h5>Liên hệ với chúng tôi</h5>
+                    <ul class="m-0 p-0">
+                        <li>
+                            <a href="#"><i class="fas fa-phone"></i><span>0123456789</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-envelope"></i><span>example@gmail.com</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-square"></i><span>Facebook</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Link dẫn</h5>
+                    <ul class="m-0 p-0">
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i><span>Home</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i><span>Bản tin Covid-19</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i><span>Vaccine - Tiêm chủng</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i><span>Chăm sóc</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i><span>Sức khỏe hàng ngày</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i><span>Tình hình thế giới</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i><span>Liên hệ</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>More</h5>
+                    <ul class="m-0 p-0">
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i><span>Điều khoản sử dụng</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i><span>Help</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i><span>FQAs</span></a>
+                        </li>                   
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Phản hồi</h5>
+                    <form action="" class="form-footer">
+                        <input type="text" placeholder="Email"><br>
+                        <input type="text" placeholder="Tin nhắn"> <br>
+                        <button>Gửi</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>  
+    <!-- FOOTER END -->
+    <!-- ON TOP -->
+    <!-- <div class="on-top text-center">
+        <span> TOP <br>
+            <i class="fas fa-arrow-up"></i>
+        </span>
+    </div> -->
+
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/fontawsome.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./js/chart.js"></script>
+
+</body>
+
+</html>

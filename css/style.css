@@ -1,0 +1,219 @@
+
+html, body{
+    font-size: 14px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+/* -------------------------- HEADER BEGIN------------------------------- */
+#search input{
+    border: 1px solid gray;
+    border-radius: 7px;
+    width: 80%;
+}
+#search button{
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    color: #333;
+}
+#search input:focus, #search button:focus{
+    outline: none;
+}
+#hotline{
+    border: 1px solid #ed1c24;
+    border-radius: 10px;
+    width: 70%;
+    background-color: #ed1c24;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+}
+.header-middle, .header-bottom{
+    background-color: #2e3192;
+}
+.header-middle .logo{
+    position: relative;
+    top: -30px;
+}
+.header-middle p{
+    position: relative;
+    top: 60px;
+    left: -200px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+.header-bottom ul{
+    list-style-type: none;
+}
+.header-bottom ul li:hover{
+    background-color: white;
+}
+.header-bottom ul li:hover a{
+    color: #2E3192;
+}
+.header-bottom ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 6px 10px;
+    font-size: 14px;
+    line-height: 25px;
+}
+/* -------------------------- HEADER END ------------------------------- */
+
+/* -------------------------- BODY BEGIN ------------------------------- */
+.nav-tabs .nav-link{
+    color: rgba(46, 49, 146, 0.6);;
+    font-size: 22px;
+    font-weight: bold;
+}
+.nav-tabs .nav-link.active{
+    color: #2E3192 !important;
+}
+.item-1{
+    background-color: rgba(237, 28, 36, 0.1);
+}
+.item-2{
+    background-color: rgba(40, 167, 69, 0.1);
+}
+.item-3{
+    background-color: #F0EFF4;
+}
+.item-1, .item-2, .item-3{
+    text-align: center;
+    padding: 8px 0px;
+}
+.note{
+    color: #666666;
+}
+.note span{
+    font-weight: 600;
+}
+.text{
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+}
+.value{
+    font-weight: bold;
+    font-size: 18px;
+}
+.item-1 .value{
+    color: #ED1C24;
+}
+.item-2 .value{
+    color: #28A745;
+}
+.item-3 .value{
+    color: #333333;
+}
+.title a{
+    padding: 0px 0px !important;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 130%;
+    color: #2E3192;
+    font-weight: 700;
+    padding-left: 16px;
+}
+.table{
+    font-size: 14px;
+}
+.table tbody tr td:nth-child(3){
+    color: #DA2E59;
+}
+.blog ul{
+    list-style-type: none;
+} 
+.blog ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+.blog ul li a:hover{
+    color: red;
+}
+
+/* -------------------------- BODY END ------------------------------- */
+
+/* -------------------------- FOOTER BEGIN------------------------------- */
+ .footer{
+    background-color: #2e3192;
+}
+.footer ul{
+    list-style-type: none;
+}
+/*
+.footer .logo{
+    position: relative;
+    top: -30px;
+}
+.footer ul li{
+    color: white;
+    font-size: 14px;
+}
+.footer ul li:first-child{
+    font-weight: bold;
+}
+.footer #vccorp{
+    margin-left: 200px;
+    margin-top: 20px;
+} */
+
+.footer h5{
+    color: #DA2E59;
+    font-weight: bold;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer ul li a:hover{
+    color: orange;
+}
+.footer ul li a i{
+    margin-right: 5px;
+}
+.form-footer input{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #2E3192;
+    color: white;
+}
+.form-footer input:focus{
+    outline: none;
+}
+.form-footer button{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 7px;
+    font-weight: bold;
+}
+.form-footer button:focus{
+    outline: none;
+}
+/* -------------------------- FOOTER END ------------------------------- */
+
+/* -------------------------- ON TOP ------------------------------- */
+.on-top{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-right: 15px;
+    padding: 3px 6px;
+    color: gray;
+    background-color: white;
+    width: 50px;
+    cursor: pointer;
+    position: relative;
+    top: -120px;
+    left: 1300px;
+}
